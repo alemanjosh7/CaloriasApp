@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
+
 <body>
-    <div class="container">
-        
+    <div class="navbar" id="navbar">
+        <div class="navbar-items">
+            <div class="logo">
+                <h1 id="logo">CaloriasApp</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><img src="./resources/img/light-solid.png" alt="theme-change" id="theme-button"></li>
+                </ul>
+            </nav>
+        </div>
     </div>
-    <script src="./js/index.js"></script>
+    <div class="container">
+        <div class="food">
+            <img src="./resources/img/sorbete.png" alt="" class="img-1">
+            <img src="./resources/img/hamburguesa.png" alt="" class="img-2">
+            <img src="./resources/img/pizza.png" alt="" class="img-3">
+            <img src="./resources/img/hot-dog.png" alt="" class="img-4">
+        </div>
+        <div class="calorie">
+            <p class="p-1">Calorias totales</p>
+            <p class="calories" id="calories">300</p>
+            <p class="p-2">Calorias</p>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
