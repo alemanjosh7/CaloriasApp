@@ -70,34 +70,52 @@ li img {
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
 
 .food {
     display: flex;
     align-items: stretch;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 50%;
 }
 
+
 .food img {
-    margin: 30px 30px 30px 20px;
+    border-radius: 25px;
+    margin: 30px 6px 6px 20px;
     width: 30%;
     height: 30%;
     cursor: pointer;
+    box-shadow: -3px 1px 33px 4px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: -3px 1px 33px 4px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: -3px 1px 33px 4px rgba(0, 0, 0, 0.37);
+    padding: 30px;
 }
 
 .calorie {
-    margin-right: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.3;
+    text-align: center;
+
 }
 
 .p-1,
 .p-2 {
-    font-size: 23px;
+    font-size: 28px;
 }
 
 .calories {
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.selection-btn {
+    background-color: #4A69BB;
+    filter: brightness(50%);
 }
